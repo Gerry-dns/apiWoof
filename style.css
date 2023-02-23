@@ -1,0 +1,43 @@
+@font-face {
+    font-family: 'woof';
+    src: url(./assets/Blues\ Smile.otf);
+}
+
+@font-face {
+    font-family: 'grobold';
+    src: url(./assets/GROBOLD.ttf);
+}
+
+@font-face {
+    font-family: 'dogo';
+    src: url(/assets/Dogo.ttf)
+}
+h1 {
+    font-family: 'woof';
+}
+
+h2 {
+    font-family:'grobold';
+}
+
+main {
+    background-color: rgb(230, 227, 178);
+    height: 100vh;
+}
+
+#img-dog {
+    max-width: 80vh;
+    height: 50vh;
+    border-radius: 25%;
+}
+
+#fetch-dog {
+    font-family: 'dogo';
+    font-size: 5rem;
+    width: 20vh;
+    height: 15vh;
+    font-size: 5rem;
+    border-radius: 25%;
+    background-color: rgba(211, 43, 43, 0.56);
+    border-color: black;
+}
